@@ -4,7 +4,7 @@ import {
   ExternalLink, Github, Eye, Star, 
   Zap, Users, ArrowRight, Code,
   ChevronLeft, ChevronRight,
-  Globe, Map, Leaf, ShoppingCart
+  Globe, Map, Leaf, ShoppingCart, Activity
 } from 'lucide-react';
 
 export default function Projects() {
@@ -45,6 +45,24 @@ export default function Projects() {
         'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
       ]
     },
+
+    {
+      title: 'LifePulse AI: Real-Time Community Health Intelligence Platform',
+      description: 'AI-powered platform that analyzes environmental data, community health signals, and disaster risks to provide real-time alerts and coordinated response for citizens, NGOs, and volunteers.',
+      tags: ['React.js', 'Node.js', 'MongoDB', 'FastAPI', 'Socket.IO', 'Python'],
+      live: '#',
+      github: 'https://github.com/aryan-26-prog/LifePulse_AI',
+      featured: true,
+      stats: { performance: '95%', rating: '4.9' },
+      color: '#00b894',
+      icon: <Activity size={isMobile ? 20 : 24} />,
+      images: [
+        'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80',
+        'https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://images.unsplash.com/photo-1581594549595-35f6edc7b762?auto=format&fit=crop&w=800&q=80'
+      ]
+    },
+    
     {
       title: 'Smart Rasoi: AI-Powered Food Redistribution Platform',
       description: 'Real-time platform connecting food donors and NGOs using AI-based image analysis for food quantity and freshness estimation.',
