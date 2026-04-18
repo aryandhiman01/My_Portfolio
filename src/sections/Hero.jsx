@@ -322,7 +322,7 @@ export default function Hero() {
           >
             <div style={{ 
               display: 'grid',
-              gridTemplateColumns: isMobile ? '1fr' : 'repeat(auto-fit, minmax(250px, 1fr))',
+              gridTemplateColumns: isMobile ? '1fr' : 'repeat(4, 1fr)',
               gap: isMobile ? '12px' : '15px',
               marginBottom: isMobile ? '30px' : '40px'
             }}>
@@ -376,15 +376,13 @@ export default function Hero() {
                     minWidth: 0 // Important for text truncation
                   }}>
                     <div style={{ 
-                      fontSize: isMobile ? '0.85rem' : '0.9rem',
-                      color: 'rgba(255, 255, 255, 0.9)',
-                      fontWeight: '500',
-                      whiteSpace: 'nowrap',
-                      overflow: 'hidden',
-                      textOverflow: 'ellipsis'
-                    }}>
-                      {info.text}
-                    </div>
+  fontSize: isMobile ? '0.85rem' : '0.9rem',
+  color: 'rgba(255, 255, 255, 0.9)',
+  fontWeight: '500',
+  whiteSpace: 'nowrap'
+}}>
+  {info.text}
+</div>
                   </div>
                 </motion.a>
               ))}
