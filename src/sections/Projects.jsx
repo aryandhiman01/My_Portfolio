@@ -4,7 +4,7 @@ import {
   ExternalLink, Github, Star, 
   Zap, Users, ArrowRight, Code,
   ChevronLeft, ChevronRight,
-  Globe, Map, Leaf, ShoppingCart, Activity
+  Globe, Map, Leaf, Scale, Activity
 } from 'lucide-react';
 
 export default function Projects() {
@@ -62,21 +62,6 @@ export default function Projects() {
     },
     
     {
-      title: 'Smart Rasoi: AI-Powered Food Redistribution Platform',
-      description: 'Real-time platform connecting food donors and NGOs using AI-based image analysis for food quantity and freshness estimation.',
-      tags: ['React.js', 'Django REST', 'Google Maps API', 'Python', 'JavaScript'],
-      github: 'https://github.com/aryan-26-prog/RasoiAI',
-      featured: false,
-      stats: { performance: '92%', rating: '4.8' },
-      color: '#7f5cff',
-      icon: <ShoppingCart size={isMobile ? 20 : 24} />,
-      images: [
-        'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        'https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-        'https://images.unsplash.com/photo-1565958011703-44f9829ba187?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
-      ]
-    },
-    {
       title: 'CivicTrack: Smart Civic Issue Reporting System',
       description: 'Geo-mapped civic issue reporting system with real-time status tracking and admin management for issue verification and resolution.',
       tags: ['React.js', 'Node.js', 'MongoDB', 'Socket.IO', 'JWT'],
@@ -104,6 +89,21 @@ export default function Projects() {
         'https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
         'https://images.unsplash.com/photo-1574943320219-553eb213f72d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
         'https://images.unsplash.com/photo-1495446815901-a7297e633e8d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80'
+      ]
+    },
+    {
+      title: 'NMAK: Smart Legal Assistance Platform',
+      description: 'A full-stack legal assistance platform that enables users to connect with specialized lawyers in real-time. Includes emergency legal support, user authentication, and categorized lawyer discovery for faster and more efficient legal help.',
+      tags: ['HTML', 'CSS', 'JavaScript', 'PHP', 'MySQL'],
+      github: 'https://github.com/aryandhiman01/NMAK',
+      featured: true,
+      stats: { performance: '90%', rating: '4.7' },
+      color: '#1e3a8a',
+      icon: <Scale size={isMobile ? 20 : 24} />, // better than shopping cart for legal
+      images: [
+        'https://images.pexels.com/photos/5668473/pexels-photo-5668473.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80',
+        'https://images.pexels.com/photos/8112172/pexels-photo-8112172.jpeg?auto=compress&cs=tinysrgb&w=1200'
       ]
     }
   ];
