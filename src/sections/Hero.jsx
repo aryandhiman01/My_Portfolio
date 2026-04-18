@@ -58,7 +58,7 @@ export default function Hero() {
     { 
       icon: <Github size={isMobile ? 20 : 24} />, 
       label: 'GitHub', 
-      href: 'https://github.com/aryan-26-prog', 
+      href: 'https://github.com/aryandhiman01', 
       color: '#00f6ff', 
       desc: 'View My Code',
       external: true
