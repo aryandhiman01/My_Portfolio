@@ -173,7 +173,8 @@ export default function Contact() {
         position: 'relative',
         zIndex: 2,
         maxWidth: '100%',
-        margin: '0 auto'
+        marginLeft: 'auto',
+        marginRight: 'auto'
       }}>
         
         {/* Section Header */}
@@ -246,7 +247,8 @@ export default function Contact() {
               fontSize: isMobile ? '1rem' : '1.1rem',
               color: 'rgba(255, 255, 255, 0.7)',
               maxWidth: '600px',
-              margin: '0 auto',
+              marginLeft: 'auto',
+              marginRight: 'auto',
               lineHeight: '1.6'
             }}
           >
@@ -772,7 +774,8 @@ export default function Contact() {
             color: 'rgba(255, 255, 255, 0.7)',
             marginBottom: isMobile ? '20px' : '25px',
             maxWidth: '500px',
-            margin: '0 auto'
+            marginLeft: 'auto',
+            marginRight: 'auto'
           }}>
             2nd year CSE student with hands-on experience in full-stack web development
           </p>
