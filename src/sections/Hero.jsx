@@ -74,7 +74,7 @@ export default function Hero() {
     { 
       icon: <FileText size={isMobile ? 20 : 24} />, 
       label: 'Resume', 
-      href: '/ARYAN-DHIMAN-RESUME.pdf', 
+      href: '/ARYAN_DHIMAN_RESUME.pdf', 
       color: '#ff2e63', 
       desc: 'Download PDF',
       download: true
