@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { 
-  ExternalLink, Github, Eye, Star, 
+  ExternalLink, Github, Star, 
   Zap, Users, ArrowRight, Code,
   ChevronLeft, ChevronRight,
   Globe, Map, Leaf, ShoppingCart, Activity
@@ -33,7 +33,6 @@ export default function Projects() {
       title: 'GamEd: Gamified Environmental Education Platform',
       description: 'Full-stack role-based learning platform for environmental education with interactive modules and real-time user engagement analytics.',
       tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript'],
-      live: '#',
       github: 'https://github.com/aryan-26-prog/GamEd',
       featured: true,
       stats: { performance: '95%', rating: '4.7' },
@@ -50,9 +49,8 @@ export default function Projects() {
       title: 'LifePulse AI: Real-Time Community Health Intelligence Platform',
       description: 'AI-powered platform that analyzes environmental data, community health signals, and disaster risks to provide real-time alerts and coordinated response for citizens, NGOs, and volunteers.',
       tags: ['React.js', 'Node.js', 'MongoDB', 'FastAPI', 'Socket.IO', 'Python'],
-      live: '#',
       github: 'https://github.com/aryan-26-prog/LifePulse_AI',
-      featured: true,
+      featured: false,
       stats: { performance: '95%', rating: '4.9' },
       color: '#00b894',
       icon: <Activity size={isMobile ? 20 : 24} />,
@@ -67,7 +65,6 @@ export default function Projects() {
       title: 'Smart Rasoi: AI-Powered Food Redistribution Platform',
       description: 'Real-time platform connecting food donors and NGOs using AI-based image analysis for food quantity and freshness estimation.',
       tags: ['React.js', 'Django REST', 'Google Maps API', 'Python', 'JavaScript'],
-      live: '#',
       github: 'https://github.com/aryan-26-prog/RasoiAI',
       featured: false,
       stats: { performance: '92%', rating: '4.8' },
@@ -83,7 +80,6 @@ export default function Projects() {
       title: 'CivicTrack: Smart Civic Issue Reporting System',
       description: 'Geo-mapped civic issue reporting system with real-time status tracking and admin management for issue verification and resolution.',
       tags: ['React.js', 'Node.js', 'MongoDB', 'Socket.IO', 'JWT'],
-      live: '#',
       github: 'https://github.com/aryan-26-prog/Civictrack',
       featured: false,
       stats: { performance: '94%', rating: '4.6' },
@@ -99,7 +95,6 @@ export default function Projects() {
       title: 'KKV: Digital Farmer Marketplace',
       description: 'Web-based marketplace enabling direct farmer-to-buyer trade with AI-based plant disease detection and live mandi price updates.',
       tags: ['HTML', 'CSS', 'JavaScript', 'Python', 'PHP'],
-      live: '#',
       github: 'https://github.com/aryan-26-prog/Kisaan-Krishi-Aur-Vayapaar',
       featured: false,
       stats: { performance: '90%', rating: '4.5' },
@@ -530,32 +525,6 @@ export default function Projects() {
                     display: 'flex', 
                     gap: isMobile ? '6px' : '8px'
                   }}>
-                    <motion.a
-                      href={project.live}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.95 }}
-                      onClick={(e) => e.stopPropagation()}
-                      style={{
-                        width: isMobile ? '36px' : '40px',
-                        height: isMobile ? '36px' : '40px',
-                        borderRadius: '50%',
-                        background: 'rgba(255, 255, 255, 0.08)',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        textDecoration: 'none',
-                        color: 'white',
-                        border: '1px solid rgba(255, 255, 255, 0.1)',
-                        position: 'relative',
-                        zIndex: 5,
-                        WebkitTapHighlightColor: 'transparent'
-                      }}
-                    >
-                      <Eye size={isMobile ? 16 : 18} />
-                    </motion.a>
-                    
                     <motion.a
                       href={project.github}
                       target="_blank"

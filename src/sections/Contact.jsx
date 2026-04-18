@@ -68,7 +68,7 @@ export default function Contact() {
       icon: <MapPin size={isMobile ? 20 : 24} />, 
       title: 'Location', 
       value: 'Mohali, Punjab', 
-      desc: 'Pursuing B.Tech at CGC',
+      desc: 'Pursuing B.Tech CSE at CGC University, Mohali',
       color: '#ff2e63'
     }
   ];
@@ -84,7 +84,7 @@ export default function Contact() {
     { 
       icon: <Github size={isMobile ? 18 : 22} />, 
       platform: 'GitHub', 
-      url: 'https://github.com/aryan-26-prog', 
+      url: 'https://github.com/aryandhiman01', 
       color: '#FFFFFF',
       label: 'View projects'
     },

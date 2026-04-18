@@ -38,10 +38,10 @@ export default function Skills() {
       icon: <Code size={isMobile ? 20 : 24} />,
       skills: [
         { name: 'React.js', level: 88, icon: <Code size={16} /> },
+        { name: 'Next.js', level: 82, icon: <Zap size={16} /> },
         { name: 'HTML5 / CSS3', level: 92, icon: <Palette size={16} /> },
         { name: 'JavaScript', level: 90, icon: <Cpu size={16} /> },
         { name: 'Tailwind CSS', level: 85, icon: <Smartphone size={16} /> },
-        { name: 'Responsive Design', level: 82, icon: <Sparkles size={16} /> }
       ]
     },
     backend: {
@@ -51,7 +51,7 @@ export default function Skills() {
       skills: [
         { name: 'Node.js / Express', level: 85, icon: <Server size={16} /> },
         { name: 'Python / Django', level: 80, icon: <Settings size={16} /> }, 
-        { name: 'MongoDB', level: 82, icon: <Database size={16} /> },
+        { name: 'MongoDB / PostgreSQL', level: 82, icon: <Database size={16} /> },
         { name: 'RESTful APIs', level: 88, icon: <Globe size={16} /> },
         { name: 'Authentication (JWT)', level: 78, icon: <Terminal size={16} /> }
       ]
@@ -427,9 +427,9 @@ export default function Skills() {
             margin: '0 auto'
           }}>
             {[
-              'React.js', 'Node.js', 'Express.js', 'JavaScript', 'Python',
-              'MongoDB', 'Django REST', 'HTML5', 'CSS3', 'Git',
-              'Postman', 'Google Maps API', 'Socket.IO', 'JWT', 'PHP'
+              'React.js', 'Next.js', 'Node.js', 'Express.js', 'JavaScript', 'Python',
+              'MongoDB', 'PostgreSQL', 'Django REST', 'HTML5', 'CSS3', 'Git',
+              'Postman', 'Google Maps API', 'Open Weather API', 'Socket.IO', 'JWT',
             ].map((tech, i) => (
               <motion.span
                 key={tech}
