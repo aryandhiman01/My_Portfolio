@@ -137,7 +137,7 @@ export default function About() {
       className="about-section"
       style={{ 
         minHeight: '100vh',
-        padding: `${clamp(60, 8, 120)} ${clamp(20, 5, 100)}`,
+        padding: isMobile ? '40px 20px' : '80px 10%',
         position: 'relative',
         overflow: 'hidden'
       }}
@@ -172,7 +172,7 @@ export default function About() {
       </motion.div>
 
       <div style={{ 
-        maxWidth: '1400px', 
+        maxWidth: '100%', 
         margin: '0 auto',
         position: 'relative',
         zIndex: 2,

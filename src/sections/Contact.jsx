@@ -143,7 +143,7 @@ export default function Contact() {
     <section id="contact" className="contact-section" style={{
       position: 'relative',
       overflow: 'hidden',
-      padding: isMobile ? '60px 20px' : '100px 5%',
+      padding: isMobile ? '40px 20px' : '80px 10%',
       minHeight: isMobile ? 'auto' : '100vh'
     }}>
       
@@ -172,7 +172,7 @@ export default function Contact() {
       <div style={{
         position: 'relative',
         zIndex: 2,
-        maxWidth: '1200px',
+        maxWidth: '100%',
         margin: '0 auto'
       }}>
         

@@ -142,7 +142,7 @@ export default function Projects() {
       id="projects" 
       style={{ 
         minHeight: '100vh',
-        padding: isMobile ? '40px 16px' : '100px 10%',
+        padding: isMobile ? '40px 20px' : '80px 10%',
         position: 'relative',
         overflow: 'hidden'
       }}
@@ -164,7 +164,7 @@ export default function Projects() {
       </motion.div>
 
       <div style={{ 
-        maxWidth: '1400px', 
+        maxWidth: '100%', 
         margin: '0 auto',
         position: 'relative',
         zIndex: 2

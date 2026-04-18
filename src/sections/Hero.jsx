@@ -144,7 +144,8 @@ export default function Hero() {
         position: 'relative',
         overflow: 'hidden',
         display: 'flex',
-        alignItems: 'center'
+        alignItems: 'center',
+        padding: isMobile ? '20px 20px' : '60px 10%'
       }}
     >
       {/* Background Parallax */}
@@ -179,7 +180,7 @@ export default function Hero() {
         position: 'relative',
         zIndex: 2,
         width: '100%',
-        padding: isMobile ? '0 20px' : '0 10%',
+        padding: '0',
         maxWidth: '1400px',
         margin: '0 auto',
         display: 'flex',
@@ -187,7 +188,7 @@ export default function Hero() {
         justifyContent: 'center',
         minHeight: '100vh'
       }}>
-        <div style={{ maxWidth: '1000px', margin: '0 auto', width: '100%' }}>
+        <div style={{ maxWidth: '100%', margin: '0 auto', width: '100%' }}>
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}

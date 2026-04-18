@@ -76,7 +76,7 @@ export default function Skills() {
       id="skills" 
       style={{ 
         minHeight: '100vh',
-        padding: isMobile ? '60px 20px' : '120px 10%',
+        padding: isMobile ? '40px 20px' : '80px 10%',
         position: 'relative',
         overflow: 'hidden'
       }}
@@ -85,20 +85,10 @@ export default function Skills() {
         style={{ rotate, x }}
         className="parallax-layer layer-3"
       >
-        <div style={{
-          position: 'absolute',
-          width: isMobile ? '200px' : '400px',
-          height: isMobile ? '200px' : '400px',
-          background: 'linear-gradient(135deg, rgba(0, 246, 255, 0.1), rgba(255, 46, 99, 0.1))',
-          top: '50%',
-          left: '10%',
-          filter: 'blur(40px)',
-          borderRadius: '50%'
-        }} />
       </motion.div>
 
       <div style={{ 
-        maxWidth: '1400px', 
+        maxWidth: '100%', 
         margin: '0 auto',
         position: 'relative',
         zIndex: 2
