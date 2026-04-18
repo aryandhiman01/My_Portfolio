@@ -147,27 +147,7 @@ export default function Contact() {
       minHeight: isMobile ? 'auto' : '100vh'
     }}>
       
-      <div id="contact-particles" style={{
-        position: 'absolute',
-        top: 0,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        zIndex: 1,
-        pointerEvents: 'none'
-      }} />
 
-      <div style={{
-        position: isMobile ? 'absolute' : 'relative',
-        top: '20%',
-        right: isMobile ? '-50%' : '10%',
-        width: isMobile ? '150px' : '300px',
-        height: isMobile ? '150px' : '300px',
-        background: 'radial-gradient(circle, rgba(0, 246, 255, 0.1), transparent 70%)',
-        borderRadius: '50%',
-        filter: isMobile ? 'blur(20px)' : 'blur(40px)',
-        zIndex: 1
-      }} />
       
       <div style={{
         position: 'relative',
@@ -857,10 +837,10 @@ export default function Contact() {
             transition={{ duration: 2, repeat: Infinity }}
             style={{ marginTop: '6px', fontSize: isMobile ? '0.75rem' : '0.85rem' }}
           >
-            Built with React, Node.js & MongoDB | Actively seeking Summer 2026 internships
+            Built with React, Three.js | Actively seeking Summer 2026 internships
           </motion.p>
           <p style={{ marginTop: '6px', fontSize: isMobile ? '0.75rem' : '0.85rem', color: 'rgba(255, 255, 255, 0.4)' }}>
-            CGC Jhanjeri, Mohali | CGPA: 9.15
+            CGC University, Mohali | CGPA: 9.15
           </p>
         </motion.div>
       </div>

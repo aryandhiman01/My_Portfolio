@@ -308,7 +308,7 @@ export default function Hero() {
             }}>
               Passionate Computer Science Engineering student with expertise in{' '}
               <strong style={{ color: '#00f6ff' }}>designing, developing, and testing scalable web applications</strong>. 
-              Currently pursuing B.Tech at CGC Jhanjeri with{' '}
+              Currently pursuing B.Tech at CGC University, Mohali with{' '}
               <strong style={{ color: '#7f5cff' }}>CGPA 9.15</strong>. 
               Actively seeking Software Engineering Internship opportunities.
             </p>
@@ -623,37 +623,6 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll Indicator */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1.5 }}
-        style={{
-          position: 'absolute',
-          bottom: '30px',
-          left: '50%',
-          transform: 'translateX(-50%)',
-          zIndex: 2,
-          display: 'flex',
-          flexDirection: 'column',
-          alignItems: 'center',
-          gap: '10px'
-        }}
-      >
-        <span style={{
-          fontSize: '0.8rem',
-          color: 'rgba(255, 255, 255, 0.5)',
-          letterSpacing: '1px'
-        }}>
-          SCROLL
-        </span>
-        <motion.div
-          animate={{ y: [0, 10, 0] }}
-          transition={{ duration: 1.5, repeat: Infinity }}
-        >
-          <ChevronDown size={20} color="rgba(255, 255, 255, 0.3)" />
-        </motion.div>
-      </motion.div>
 
       {/* Mobile Optimizations */}
       <style>{`
