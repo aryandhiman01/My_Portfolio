@@ -260,9 +260,9 @@ export default function About() {
                 textAlign: isMobile ? 'center' : 'left',
                 margin: isMobile ? '0 auto' : '0'
               }}>
-                Actively strengthening <strong style={{ color: '#7f5cff' }}>Data Structures & Algorithms</strong>, 
-                <strong style={{ color: '#00f6ff' }}> object-oriented programming</strong>, and 
-                <strong style={{ color: '#ff2e63' }}> full-stack web development</strong> through practical experience.
+                Actively strengthening <strong style={{ color: '#7f5cff' }}>full-stack web development</strong>, 
+                <strong style={{ color: '#00f6ff' }}> Data Structures & Algorithms</strong>, and 
+                <strong style={{ color: '#ff2e63' }}> object-oriented programming</strong> through practical experience.
               </div>
             </SlideInLeft>
           </div>
