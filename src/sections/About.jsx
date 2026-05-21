@@ -86,7 +86,7 @@ export default function About() {
     {
       id: 3,
       company: 'D4 Community',
-      role: 'Technical Team Member',
+      role: 'Core Member',
       period: 'Ongoing',
       achievements: [
         'Contributed to technical planning and development activities',
